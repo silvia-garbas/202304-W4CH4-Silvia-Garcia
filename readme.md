@@ -23,3 +23,17 @@ Separa todo en los siguientes componentes:
   - Key
 
 Entrega también un listado de responsabilidades.
+
+###
+
+- Info \_ Recibe estado llamada de context -
+  Devuelve
+  render estado llamada
+  -Display:
+  Recbe número de
+  context - Devuelve render número
+  -Actions(Botones llamar y colgar)
+  --Action --Recibe handlers de context - Devuleve un cmabio de estado.
+
+Keyboard - contiene todos los números teclas números.
+key -
