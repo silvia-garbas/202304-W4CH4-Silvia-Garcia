@@ -29,7 +29,7 @@ export function usePhone() {
   }
 
   function handleAddNumber() {
-    [...phoneNumber, item.key];
+    // [...phoneNumber, item.key];
   }
 
   return {

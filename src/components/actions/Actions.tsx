@@ -1,13 +1,13 @@
-import { Action } from "../action/Action";
-import { Display } from "../display/Display";
-
 export function Actions() {
   return (
     <>
-      <div className="actions">
-        <Display></Display>
-        <Action></Action>
-      </div>
+      <span className="number">667359961</span>
+
+      <a href="#" className="call">
+        Call
+      </a>
+
+      <a href="#" className="hang active"></a>
     </>
   );
 }
