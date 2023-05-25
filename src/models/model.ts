@@ -1,5 +1,7 @@
-export type Note = {
-number: string,
-isCalling: boolean,
-isCallable: boolean,
+
+
+export type PhoneStructure = {
+  isCalling: boolean;
+  phoneNumber: string;
+  key: string;
 };
