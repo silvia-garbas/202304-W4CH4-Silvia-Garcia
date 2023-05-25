@@ -3,7 +3,7 @@ import { useState } from "react";
 export function usePhone() {
   const [isCalling, setIsCalling] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [isActive, setIsActive] = useState(false);
+  // const [isActive, setIsActive] = useState(false);
 
   function handleChange() {
     if (isCalling === true) {

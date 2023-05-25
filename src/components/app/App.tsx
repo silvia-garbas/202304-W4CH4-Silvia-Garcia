@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <Info></Info>
         <main className="phone">
-          <Keyboard></Keyboard>
+          {/* <Keyboard></Keyboard> */}
           <Actions></Actions>
         </main>
       </div>
