@@ -24,16 +24,12 @@ Separa todo en los siguientes componentes:
 
 Entrega también un listado de responsabilidades.
 
-###
+### Listado de responsabilidades
 
-- Info \_ Recibe estado llamada de context -
-  Devuelve
-  render estado llamada
-  -Display:
-  Recbe número de
-  context - Devuelve render número
-  -Actions(Botones llamar y colgar)
-  --Action --Recibe handlers de context - Devuleve un cmabio de estado.
 
-Keyboard - contiene todos los números teclas números.
+- Info:  Recibe estado llamada de context -Devuelve render estado llamada
+- Display: Recibe número de context - Devuelve render número
+- Actions(Botones llamar y colgar: Lista de botones.Lista de tarjetas.)
+    - Action --> Recibe handlers de context --> Devuleve un cambio de estado. Pinta un valor que recibe desde Actions, lo recibe por props. Porque lo que hace no le interesa a nadie más. solo lo necesita Actions hijo.
+- Keyboard:(Lista de tarjetas) Contiene todos los números teclas números. Muestra tantas teclas com oelementos tiene en un rarry de teclas.
 key -
